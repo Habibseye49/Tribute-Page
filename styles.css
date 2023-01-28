@@ -13,6 +13,9 @@ body{
 }
 main{
     display: block;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 30px 8px;
 }
 h1{
   background: linear-gradient(270deg, rgb(253, 55, 55) , rgb(182, 13, 13), rgb(0, 0, 0),rgb(188, 35, 35));
@@ -30,5 +33,35 @@ h1{
     display: flex;
     justify-content: center;
     }
+@media (max-width: 460px){
+    #main{
+        margin: 0;
+    }
+}
+#img-div{
+    display: block;
+    padding: 10px;
+    margin: 0;
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    background: linear-gradient(103deg, grey, white);
+}
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin 0: auto;
+}
+ul{
+    display: block;
+    list-style-type: disc;
+    max-width: 550px;
+    text-align: left;
+    line-height: 1.6;
+    margin: 0 auto 50px auto;
 
+
+}
 
